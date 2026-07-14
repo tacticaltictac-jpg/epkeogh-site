@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBE7DF"/><stop offset="1" stop-color="#DBD5C9"/></linearGradient></defs>
+<rect width="2000" height="900" fill="url(#g)"/>
+<path d="M0 378 L2000 408 L2000 900 L0 900 Z" fill="#1B3A5C" opacity="0.05"/>
+<path d="M0 378 L2000 408" stroke="#B7AF9F" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path d="M0 520 L2000 451 L2000 900 L0 900 Z" fill="#1B3A5C" opacity="0.09"/>
+<path d="M0 520 L2000 451" stroke="#B7AF9F" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path d="M0 647 L2000 544 L2000 900 L0 900 Z" fill="#1B3A5C" opacity="0.12"/>
+<path d="M0 647 L2000 544" stroke="#B7AF9F" stroke-width="1.5" opacity="0.5" fill="none"/>
+<line x1="0" y1="0" x2="0" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="250" y1="0" x2="250" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="500" y1="0" x2="500" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="750" y1="0" x2="750" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="1000" y1="0" x2="1000" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="1250" y1="0" x2="1250" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="1500" y1="0" x2="1500" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="1750" y1="0" x2="1750" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<line x1="2000" y1="0" x2="2000" y2="900" stroke="#B7AF9F" stroke-width="1" opacity="0.14"/>
+<text x="1000.0" y="450.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="6" fill="#8F887B" opacity="0.85">PHOTOGRAPHY TO FOLLOW</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1700" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B3A5C"/><stop offset="1" stop-color="#12283F"/></linearGradient></defs>
+<rect width="1500" height="1700" fill="url(#g)"/>
+<path d="M0 646 L1500 743 L1500 1700 L0 1700 Z" fill="#0C1D30" opacity="0.28"/>
+<path d="M0 646 L1500 743" stroke="#3D5B7D" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path d="M0 968 L1500 828 L1500 1700 L0 1700 Z" fill="#0C1D30" opacity="0.38"/>
+<path d="M0 968 L1500 828" stroke="#3D5B7D" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path d="M0 1104 L1500 1118 L1500 1700 L0 1700 Z" fill="#0C1D30" opacity="0.5"/>
+<path d="M0 1104 L1500 1118" stroke="#3D5B7D" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path d="M0 1348 L1500 1298 L1500 1700 L0 1700 Z" fill="#0C1D30" opacity="0.4"/>
+<path d="M0 1348 L1500 1298" stroke="#3D5B7D" stroke-width="1.5" opacity="0.5" fill="none"/>
+<line x1="0" y1="0" x2="0" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="187" y1="0" x2="187" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="374" y1="0" x2="374" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="561" y1="0" x2="561" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="748" y1="0" x2="748" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="935" y1="0" x2="935" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="1122" y1="0" x2="1122" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="1309" y1="0" x2="1309" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<line x1="1496" y1="0" x2="1496" y2="1700" stroke="#3D5B7D" stroke-width="1" opacity="0.14"/>
+<text x="750.0" y="850.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="4" fill="#7E96AE" opacity="0.85">PHOTOGRAPHY TO FOLLOW</text>
+</svg>
