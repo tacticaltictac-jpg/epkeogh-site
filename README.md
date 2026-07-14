@@ -42,10 +42,14 @@ assets/img/         Favicon; drop the real logo files here
    headers. The cut-outs' edges are anti-aliased against white, so use them
    on light surfaces only (the footer keeps the typographic wordmark for
    this reason). `logo-stacked.png` is kept ready for tight spaces.
-2. **Photography** — every temporary image references
-   `assets/placeholders/*.svg` and is marked with a `PHOTO SLOT` comment.
-   Replace the `src` with real photos; layout expects roughly 4:3 for cards
-   and wide/16:10 for bands and the featured project.
+2. **Photography — in progress, location by location.** Real photos live in
+   `assets/img/projects/<location>/` (first set: `ashton-keynes/`, plant &
+   labour supply, 2019–20). All are EXIF/GPS-stripped, orientation baked in,
+   max 1600px, quality 72 — process new sets the same way. Remaining
+   placeholders reference `assets/placeholders/*.svg`; layout expects
+   roughly 4:3 for cards and wide/16:10 for bands and the featured project.
+   The Developments featured slot is still a placeholder, reserved for a
+   flagship development.
 3. **Email address** — `enquiries@epkeoghcontractors.co.uk` is a placeholder.
    Search the project for `epkeoghcontractors` and replace everywhere (it
    appears on the contact page and in every footer).
