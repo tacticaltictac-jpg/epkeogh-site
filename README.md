@@ -34,13 +34,14 @@ assets/img/         Favicon; drop the real logo files here
 
 ## Things waiting on real content
 
-1. **Logos** — place the two supplied files in `assets/img/` (suggested names:
-   `logo-horizontal.png`, `logo-stacked.png`). Each page header has a
-   commented `LOGO SLOT` showing the one-line swap. The `.brand-logo` class
-   already applies `mix-blend-mode: multiply`, which makes the horizontal
-   logo's unintended off-white background invisible on the site's light
-   header — no need to edit the image. Avoid placing that file on navy
-   surfaces (the footer keeps the typographic wordmark for this reason).
+1. **Logos — done.** The supplied files live in `assets/img/`:
+   `*-original.jpg` are byte-for-byte as provided. The `.png` copies are
+   production cut-outs — margins trimmed and the white ground keyed to
+   transparency; the mark and wordmark themselves are untouched.
+   `logo-horizontal-header.png` is a downscaled rendition used in the page
+   headers. The cut-outs' edges are anti-aliased against white, so use them
+   on light surfaces only (the footer keeps the typographic wordmark for
+   this reason). `logo-stacked.png` is kept ready for tight spaces.
 2. **Photography** — every temporary image references
    `assets/placeholders/*.svg` and is marked with a `PHOTO SLOT` comment.
    Replace the `src` with real photos; layout expects roughly 4:3 for cards

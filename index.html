@@ -13,13 +13,11 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="index.html" aria-label="E. P. Keogh Contractors Ltd — home">
-      <!-- LOGO SLOT: when the supplied horizontal logo file is added to assets/img/,
-           replace the two <span>s below with:
-           <img class="brand-logo" src="assets/img/logo-horizontal.png" alt="E. P. Keogh Contractors Ltd">
-           (.brand-logo uses mix-blend-mode: multiply, which hides the logo's
-           off-white background on these light surfaces without editing the file) -->
-      <span class="brand-name">E.&thinsp;P. Keogh</span>
-      <span class="brand-sub">Contractors Ltd</span>
+      <!-- Supplied logo. mix-blend-mode: multiply (on .brand-logo) melts its white
+           ground into the light header. Originals kept in assets/img/*-original.jpg;
+           the .png copies are margin-trimmed only. Don't place this on navy surfaces —
+           the footer keeps the typographic wordmark for that reason. -->
+      <img class="brand-logo" src="assets/img/logo-horizontal-header.png" alt="E. P. Keogh Contractors Ltd">
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span class="bars"></span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main">

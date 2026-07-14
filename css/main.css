@@ -152,10 +152,10 @@ a:hover { color: var(--bronze); }
   min-height: 76px;
 }
 
-/* Brand — typographic wordmark. When the supplied logo file is dropped into
-   assets/img/, swap the two spans for the commented <img> in each page header.
-   .brand-logo is pre-styled for it (multiply hides the logo's off-white box
-   on these light surfaces). */
+/* Brand. Headers use the supplied horizontal logo (.brand-logo) as a
+   transparent cut-out. The typographic wordmark styles below remain in use
+   in the footer: the cut-out's edges were anti-aliased against white, so it
+   belongs on light surfaces only. */
 .brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.05; padding: 8px 0; }
 .brand-name {
   font-family: var(--font-display);
@@ -174,7 +174,7 @@ a:hover { color: var(--bronze); }
   color: var(--grey);
   margin-top: 3px;
 }
-.brand-logo { height: 46px; width: auto; mix-blend-mode: multiply; }
+.brand-logo { height: 48px; width: auto; }
 
 .site-nav { display: flex; align-items: center; gap: clamp(18px, 2.6vw, 34px); }
 .site-nav a {
@@ -431,6 +431,7 @@ a:hover { color: var(--bronze); }
 
 @media (max-width: 720px) {
   body { font-size: 16px; }
+  .brand-logo { height: 40px; }
   .nav-toggle { display: block; }
   .site-nav {
     display: none;
