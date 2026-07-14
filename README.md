@@ -66,13 +66,14 @@ assets/img/         Favicon; drop the real logo files here
   self-hosted variable woff2 files, ~47 KB total.
 - All design tokens live in `:root` at the top of `css/main.css`.
 
-## Moving this to its own repository
+## Repositories & preview
 
-This branch has an orphan history containing only this site (nothing from
-any other project). To give it its own repo, create an empty repository and:
+The site lives in its own repository (`epkeogh-site`) and is previewed via
+GitHub Pages from `main`. Every page carries a `noindex` meta tag marked
+`PREVIEW ONLY` — remove those lines when the site goes properly live on its
+own domain.
 
-```sh
-git push <new-repo-url> claude/ep-keogh-contractors-site-9zq2p0:main
-```
-
-Do **not** merge this branch into any other project's main branch.
+A mirror of the same history is also pushed to the
+`claude/ep-keogh-contractors-site-9zq2p0` branch of the `civils.app` repo
+(an orphan branch sharing nothing with that project). Do **not** merge that
+branch into civils.app's main.
